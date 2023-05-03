@@ -24,7 +24,7 @@ This script trains a neural network model on the merged dataset (created by main
 
 This script contains a pipeline for detecting phishing websites using the trained neural network model. It loads and preprocesses the merged dataset, trains the model, and saves the model and preprocessing objects. The script also defines functions for preprocessing new URLs, padding features with zeros, and classifying new URLs as phishing or legitimate.
 
-This is can be used for deploying the model in various ways but for this project I will not be deploying as Sir has told that it is not necessary for the project. I have included this as an extra to show that I have been working towards it.
+This is can be used for deploying the model in various ways but for this project I will not be deploying I have included this as starting point of those who want to do it.
 
 ## Usage
 
@@ -40,7 +40,7 @@ graph_features.py, nlp_features.py, main.py, train_model.py, and phishing_detect
 
 `python main.py`
 
-(Warning: This takes a while to run. It Took me five hours. Run this if you have the time. I have already included the feature extracted dataset Merged_Dataset_with_Graph_and_NLP_Features.csv I hope you can directly use it by running train_model.py without having to run the main.py for extraction. Running phishing_detection_pipeline.py will result in the same long time needed.)
+(Warning: This takes a while to run. It Took me five hours. Run this When you have the time)
 
 **Run train_model.py to train the neural network model:**
 
