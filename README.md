@@ -1,2 +1,0 @@
-# Phishing_Detection
-Phishing_Detection_using_NLP_and_Graph_Feature_Extraction
